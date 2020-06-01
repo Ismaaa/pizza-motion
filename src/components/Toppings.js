@@ -36,7 +36,7 @@ const Toppings = ({ addTopping, pizza }) => {
 
 Toppings.propTypes = {
   addTopping: PropTypes.func.isRequired,
-  pizza: PropTypes.isRequired,
+  pizza: PropTypes.object.isRequired,
 };
 
 export default Toppings;

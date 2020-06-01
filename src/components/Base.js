@@ -33,7 +33,7 @@ const Base = ({ addBase, pizza }) => {
 
 Base.propTypes = {
   addBase: PropTypes.func.isRequired,
-  pizza: PropTypes.isRequired,
+  pizza: PropTypes.object.isRequired,
 };
 
 export default Base;
