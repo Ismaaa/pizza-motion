@@ -5,12 +5,14 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="home container">
-      <motion.h2 animate={{ fontSize: 50 }}>Welcome to Pizza Joint</motion.h2>
+    <motion.div className="home container" animate={{}}>
+      <h2 animate={{ fontSize: 50 }}>Welcome to Pizza Motion</h2>
       <Link to="/base">
-        <button type="button">Create Your Pizza</button>
+        <motion.button type="button" animate={{}}>
+          Create Your Pizza
+        </motion.button>
       </Link>
-    </div>
+    </motion.div>
   );
 };
 
