@@ -15,7 +15,7 @@ const Order = ({ pizza }) => {
 };
 
 Order.propTypes = {
-  pizza: PropTypes.objectOf(PropTypes.object()).isRequired,
+  pizza: PropTypes.isRequired,
 };
 
 export default Order;
